@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-public class List<Person>
+public class Person
 {
     public int PersonID;
     public string Name;
