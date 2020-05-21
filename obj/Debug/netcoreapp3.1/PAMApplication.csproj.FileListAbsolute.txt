@@ -1,0 +1,13 @@
+/home/codex/Projects/CSharp/PAMApplication/bin/Debug/netcoreapp3.1/PAMApplication
+/home/codex/Projects/CSharp/PAMApplication/bin/Debug/netcoreapp3.1/PAMApplication.deps.json
+/home/codex/Projects/CSharp/PAMApplication/bin/Debug/netcoreapp3.1/PAMApplication.runtimeconfig.json
+/home/codex/Projects/CSharp/PAMApplication/bin/Debug/netcoreapp3.1/PAMApplication.runtimeconfig.dev.json
+/home/codex/Projects/CSharp/PAMApplication/bin/Debug/netcoreapp3.1/PAMApplication.dll
+/home/codex/Projects/CSharp/PAMApplication/bin/Debug/netcoreapp3.1/PAMApplication.pdb
+/home/codex/Projects/CSharp/PAMApplication/obj/Debug/netcoreapp3.1/PAMApplication.csprojAssemblyReference.cache
+/home/codex/Projects/CSharp/PAMApplication/obj/Debug/netcoreapp3.1/PAMApplication.AssemblyInfoInputs.cache
+/home/codex/Projects/CSharp/PAMApplication/obj/Debug/netcoreapp3.1/PAMApplication.AssemblyInfo.cs
+/home/codex/Projects/CSharp/PAMApplication/obj/Debug/netcoreapp3.1/PAMApplication.csproj.CoreCompileInputs.cache
+/home/codex/Projects/CSharp/PAMApplication/obj/Debug/netcoreapp3.1/PAMApplication.dll
+/home/codex/Projects/CSharp/PAMApplication/obj/Debug/netcoreapp3.1/PAMApplication.pdb
+/home/codex/Projects/CSharp/PAMApplication/obj/Debug/netcoreapp3.1/PAMApplication.genruntimeconfig.cache
