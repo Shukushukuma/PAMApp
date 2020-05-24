@@ -3,14 +3,27 @@ using System.Collections.Generic;
 
 public class Person
 {
-    public int PersonID;
-    public string Name;
-    public string LastName;
+    //Fields
+    public int personid;
+    public string name;
+    public string lastname;
+    public double cellnumber;
+    public string address;
+
+    //Properties
+    public int PersonID {get;set;}
+    public string Name {get; set;}
+    public string LastName {get;set;}
     
-    public double Cellnumber;
+    public double Cellnumber  {get;set;}
 
-    public string Address;
+    public string Address 
+    {
+        get{return address;}//to remember this format
+        set{address=value;}
+    }
 
+    //Constructor
     public Person(int pID, string pName, string lName, double cellNum, string pAddress)
     {
         PersonID = pID;
