@@ -11,7 +11,7 @@ public class Person
 
     public string Address;
 
-    public void setPerson(int pID, string pName, string lName, double cellNum, string pAddress)
+    public Person(int pID, string pName, string lName, double cellNum, string pAddress)
     {
         PersonID = pID;
         Name =pName;
