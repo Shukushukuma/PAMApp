@@ -4,11 +4,11 @@ using System.Collections.Generic;
 public class Person
 {
     //Fields
-    public int personid;
-    public string name;
-    public string lastname;
-    public double cellnumber;
-    public string address;
+    private int _personid;
+    private string _name;
+    private string _lastname;
+    private double _cellnumber;
+    private string _address;
 
     //Properties
     public int PersonID {get;set;}
@@ -19,8 +19,8 @@ public class Person
 
     public string Address 
     {
-        get{return address;}//to remember this format
-        set{address=value;}
+        get{return _address;}//to remember this format
+        set{_address=value;}
     }
 
     //Constructor
