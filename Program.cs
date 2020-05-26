@@ -7,10 +7,21 @@ namespace PAMApplication
     {
         public static void Main(string[] args)
         {
-            var addressList = new List<Person>();
+            //string[] addressList = new string[10];
             Person Mawande = new Person(1,"Mawande","Mnukwa",0730780495,"09 Sussex Road,Observatory,7395,Cape Town");
+            //addressList = Mawande.getPerson();
+            
 
-            Console.WriteLine(Mawande.Address);
+            
+            foreach(string item in Mawande)
+            {
+                Console.WriteLine(item);
+            }
+            
+            //Console.WriteLine(addressList[Mawande]);
+            Mawande.getPerson();
+
+            
 
 
         }

@@ -11,11 +11,27 @@ public class Person
     private string _address;
 
     //Properties
-    public int PersonID {get;set;}
-    public string Name {get; set;}
-    public string LastName {get;set;}
+    public int PersonID
+    {
+        get{return _personid;}
+        set{_personid=value;}
+    }
+    public string Name
+    {
+        get{return _name;}
+        set{_name=value;}
+    }
+    public string LastName
+    {
+        get{return _lastname;}//to remember this format
+        set{_lastname=value;}
+    }
     
-    public double Cellnumber  {get;set;}
+    public double Cellnumber
+    {
+        get{return _cellnumber;}//to remember this format
+        set{_cellnumber=value;}
+    }
 
     public string Address 
     {
@@ -33,8 +49,9 @@ public class Person
         Address=pAddress;
 
     }
-    public Object getPerson (Person person)
+    public void getPerson ()
     {
-        return person;
+        Console.WriteLine($" {PersonID.ToString()} {Name} {LastName} {Cellnumber.ToString()} {Address}");
     }
+
 }
